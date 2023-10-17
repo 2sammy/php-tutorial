@@ -25,5 +25,13 @@
 
 $name = 'sammy' ; // string 
 $age = 40; //integer
+$sam_mmy = true;
+//concantanation
+echo $name . 'is' .$age . 'years old' ;
+//other option
 
-echo $name;
+echo "4" + "3";
+
+$x = '4' + '4';
+var_dump($x);
+
