@@ -11,6 +11,11 @@
   }
 */
 
+for($x = 0; $x <= 10; $x++){
+  echo $x;
+}
+
+
 
 /* ------------ While Loop ------------ */
 
@@ -21,6 +26,13 @@
   }
 */
 
+$x= 1;
+while($x <= 15) {
+  echo 'Number ' . $x. '<br>';
+  $x++;
+  $x + 1;
+}
+
 
 /* ---------- Do While Loop --------- */
 
@@ -30,8 +42,19 @@
   // code to be executed
   } while (condition);
 
+
+
+
 do...while loop will always execute the block of code once, even if the condition is false.
 */
+
+$x = 1;
+do {
+  echo 'NUmber' . $x . '<br>';
+  $x++;
+
+}
+while ($x <= 5);
 
 
 
@@ -43,3 +66,7 @@ do...while loop will always execute the block of code once, even if the conditio
   // code to be executed
   }
 */
+
+foreach($posts as $posts) {
+  echo $posts ;
+}
